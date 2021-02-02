@@ -1,4 +1,4 @@
-// FUNCTION IMPLEMENTATIO
+// FUNCTION IMPLEMENTATION
 const assertEqual = function(actual, expected) {
   let output = "";
 
