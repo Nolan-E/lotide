@@ -28,15 +28,8 @@ const without = function(source, itemsToRemove) {
   let output = [];
 
   for (let i = 0; i < source.length; i++) {
-    output.push(source[i]);
-  }
-  for (let i = 0; i < itemsToRemove.length; i++) {
-    if (output.includes(itemsToRemove[i])) {
-      for (let j = 0; j < output.length; j++) {
-        if (output[j] === itemsToRemove[i]) {
-          output.splice(j, 1);
-        }
-      }
+    if (!itemsToRemove.includes(source[i])) {
+      output.push(source[i]);
     }
   }
   return output;
