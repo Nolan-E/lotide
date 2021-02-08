@@ -1,6 +1,3 @@
-// IMPORT MODULES
-const assertEqual = require('./assertEqual');
-
 // FUNCTION IMPLEMENTATION
 const head = function(Arr) {
   let output = Arr[0];
