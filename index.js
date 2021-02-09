@@ -5,6 +5,7 @@ const middle = require('./middle');
 const countLetters = require('./countLetters');
 const countOnly = require('./countOnly');
 const eqObjects = require('./eqObjects');
+const findKey = require('./findKey');
 
 // EXPORT MODULE
 module.exports = {
@@ -13,5 +14,6 @@ module.exports = {
   middle,
   countLetters,
   countOnly,
-  eqObjects
+  eqObjects,
+  findKey,
 };
