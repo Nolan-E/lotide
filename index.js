@@ -9,6 +9,7 @@ const findKey = require('./findKey');
 const findKeyByValue = require('./findKeyByValue');
 const flatten = require('./flatten');
 const letterPositions = require('./letterPositions');
+const map = require('./map');
 
 // EXPORT MODULE
 module.exports = {
@@ -21,5 +22,6 @@ module.exports = {
   findKey,
   findKeyByValue,
   flatten,
-  letterPositions
+  letterPositions,
+  map
 };
